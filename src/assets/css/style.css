@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    background-color: white;
+}
+
+header {
+    /* height: 70px; */
+    padding: 0.5% 0px;
+    background-color: #ff8fab;
+    color: white;
+    box-shadow: 0px 2px 7px #fb6f92;
+}
+
+header>.logo {
+    font-weight: bold;
+    margin-left: 10.5%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #fb6f92;
+    padding: 0.5% 0px;
+    color: white;
+    text-align: center;
+}
+
+footer>p {
+    font-weight: 300;
+    margin: 0;
+}
+
+/* cc - converter case */
+.cc-btn {
+    margin: 5px 0;
+}
+
+.cc-textarea {
+    resize: none;
+    height: 280px;
+}
+
+.cc-label {
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cc-header {
+    /* border: solid black 1px; */
+    padding: 25px 0;
+}
+
+.cc-header>.cc-title {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+}
+
+.cc-header>.cc-title>span {
+    font-size: 50px;
+    background-color: #ff8fab;
+    padding: 0px 20px;
+    color: white;
+}
+
+.is {
+    margin-bottom: 50px;
+    /* border: solid black 1px; */
+}
+
+.is>.is-circle {
+    border-radius: 50%;
+    width: 64px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: #fb6f92;
+}
+
+.is>.is-circle>span {
+    /* position: relative; */
+    vertical-align: middle;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: -200px !important;
+}
+
+.is>.is-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 4px dashed #ffb3c6;
+    text-align: left;
+}
+
+/* padding */
+/* padding-vertical */
+.pv100 {
+    padding: 100px 0 100px 0;
+}
+
+/* padding-all */
+.p10 {
+    padding: 10px;
+}
+
+/* margin */
+.mr5 {
+    margin-right: 5px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+/* modified css */
+.btn {
+    border: none;
+}
+
+.btn-primary {
+    background-color: #fb6f92 !important;
+}
